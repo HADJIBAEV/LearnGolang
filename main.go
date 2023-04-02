@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	// _____ If else example _____
+	// ______________________________ If else example ______________________________
 	var number = [...]int{1, 2, 3, 4}
 	numbers := [...]int{1, 2, 3, 4}
 	if number == numbers {
@@ -22,10 +22,10 @@ func main() {
 		fmt.Println("A = 12")
 	}
 
-	fmt.Println("Factorial 4 = ", Factorial(4))
+	fmt.Println("Factorial = ", Factorial(4))
 	fmt.Println("Fibonachi = ", Fibonacci(6))
 
-	// _____ Switch example _____
+	// ______________________________ Switch example ______________________________
 	b := 12
 	switch b {
 	case 9, 10, 11, 12:
@@ -38,15 +38,15 @@ func main() {
 		fmt.Println("Default variable SwitchCase")
 	}
 
-	// _____  For Loop example:
+	// ______________________________  For Loop example ______________________________
 
-	// _____  For Loop with Condition example:
+	// ______________________________  For Loop with Condition example ______________________________
 
-	// _____  Continue & Break example:
+	// ______________________________ Continue & Break example ______________________________
 
-	// _____  Struct example:
+	// ______________________________ Struct example ______________________________
 
-	// _____  Class example:
+	// ______________________________ Class example ______________________________
 
 }
 
